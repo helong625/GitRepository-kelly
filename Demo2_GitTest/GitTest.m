@@ -18,4 +18,8 @@
     NSLog(@"gitTestMessage");
 }
 
+-(void)gitTest2{
+    NSLog(@"gitTest2Message");
+}
+
 @end
