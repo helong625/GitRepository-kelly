@@ -15,6 +15,7 @@
 		854B4E5E1B8C207A00E940C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 854B4E5D1B8C207A00E940C9 /* Images.xcassets */; };
 		854B4E611B8C207A00E940C9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 854B4E5F1B8C207A00E940C9 /* LaunchScreen.xib */; };
 		854B4E6D1B8C207A00E940C9 /* Demo2_GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 854B4E6C1B8C207A00E940C9 /* Demo2_GitTestTests.m */; };
+		854B4E781B8C209800E940C9 /* GitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 854B4E771B8C209800E940C9 /* GitTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		854B4E661B8C207A00E940C9 /* Demo2_GitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo2_GitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		854B4E6B1B8C207A00E940C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		854B4E6C1B8C207A00E940C9 /* Demo2_GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo2_GitTestTests.m; sourceTree = "<group>"; };
+		854B4E761B8C209800E940C9 /* GitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitTest.h; sourceTree = "<group>"; };
+		854B4E771B8C209800E940C9 /* GitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				854B4E5F1B8C207A00E940C9 /* LaunchScreen.xib */,
 				854B4E541B8C207A00E940C9 /* Demo2_GitTest.xcdatamodeld */,
 				854B4E4D1B8C207A00E940C9 /* Supporting Files */,
+				854B4E761B8C209800E940C9 /* GitTest.h */,
+				854B4E771B8C209800E940C9 /* GitTest.m */,
 			);
 			path = Demo2_GitTest;
 			sourceTree = "<group>";
@@ -223,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				854B4E531B8C207A00E940C9 /* AppDelegate.m in Sources */,
+				854B4E781B8C209800E940C9 /* GitTest.m in Sources */,
 				854B4E501B8C207A00E940C9 /* main.m in Sources */,
 				854B4E591B8C207A00E940C9 /* ViewController.m in Sources */,
 				854B4E561B8C207A00E940C9 /* Demo2_GitTest.xcdatamodeld in Sources */,
