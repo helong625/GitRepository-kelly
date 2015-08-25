@@ -14,4 +14,8 @@
     NSLog(@"gitTest");
 }
 
+-(void)gitTest{
+    NSLog(@"gitTestMessage");
+}
+
 @end
